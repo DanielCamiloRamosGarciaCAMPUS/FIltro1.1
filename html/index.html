@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap 5.0-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Campus 2.0</title>
+</head>
+<body>
+    <div class="container-fluid"> 
+    <header>
+        <nav class="navbar-1 navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid ">
+                <button type="button" class="btn btn-secondary py-2 " data-bs-toggle="modal" data-bs-target="#iniciarSesion" data-bs-whatever="@mdo">Iniciar sesion</button>
+
+                <div class="modal fade" id="iniciarSesion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header color1">
+                          <h1 class="modal-title fs-5 headerr" id="exampleModalLabel">Iniciar Sesion</h1>
+                        </div>
+                        <div class="modal-body">
+                          <form id="formulario" class="row g-3"  method="POST">
+                            <div class="col-md-12">
+                              <label for="nombre" class="form-label headerr">Usuario</label>
+                              <input type="text" class="form-control" id="user">
+                            </div>
+            
+                            <div class="col-md-12">
+                                <label for="nombre" class="form-label headerr">Contraseña</label>
+                                <input type="text" class="form-control" id="password">
+                              </div> 
+            
+                                </div>
+                                  <button type="submit" class="btn color5 color-heder headerr btn-warning col-md-2 m-3" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal1">
+                                <a href="./dashboard.html" style="text-decoration:none">iniciar</a>
+                                </button>
+                                </div>
+                              </div>
+                            </div>
+                      </form>
+                  </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Modal Registrarse-->
+    <div class="modal fade" id="registerCamper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header color1">
+              <h1 class="modal-title fs-5 headerr" id="exampleModalLabel">Registro de Usuarios</h1>
+            </div>
+            <div class="modal-body">
+              <form id="formulario" class="row g-3"  method="POST">
+                <div class="col-md-12">
+                  <label for="nombre" class="form-label headerr">Nombre</label>
+                  <input type="text" class="form-control" id="nombre">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label headerr">User</label>
+                    <input type="text" class="form-control" id="user">
+                  </div> 
+
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label headerr">Password</label>
+                    <input type="text" class="form-control" id="password">
+                </div> 
+
+                <div class="col-md-12">
+                    <label for="nombre" class="form-label headerr">Email</label>
+                    <input type="text" class="form-control" id="email">
+                </div>
+
+                    </div>
+                    <div class="modal-footer ">
+                      <button type="button" class="btn btn-danger color3 border3 headerr" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="submit" class="btn color5 color-heder headerr btn-warning" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2">
+                        <a href="../html/dashboard.html" style="text-decoration:none">Enviar registro</a>
+                    </button>
+                    </div>
+                  </div>
+                </div>
+          </form>
+      </div>
+
+    <!--Contenedor inicio-->
+    <div class="container-fluid py-3 ">
+        <div class="col-11 container-fluid">
+            <h1 class="titleHome">
+                SISTEMA DE <br> FACTURACION Y 
+                <br> MARKETING
+            </h1>
+            <h1 class="display-1 subTitleHome">
+                CAMPUS <br> 2.0
+            </h1>
+            <button type="button" class="btn btn-secondary py-2 " data-bs-toggle="modal" data-bs-target="#registerCamper" data-bs-whatever="@mdo">Registrarse</button>
+        </div>
+
+            
+            
+    </div>
+
+</div>
+
+</body>
+</html>

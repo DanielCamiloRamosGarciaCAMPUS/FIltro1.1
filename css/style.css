@@ -1,0 +1,40 @@
+body {
+    background-size: cover;
+    background-image: url(../images/espacio2.png);
+}
+
+.navbar-1 {
+    background-color: darkgray;
+}
+
+
+.btn-registro {
+    border-color: white;
+}
+
+.imagenOne{
+    width: 40%;
+}
+
+.colorSesion{
+    background-color: deeppink;
+}
+
+.titleHome{
+    color:aqua;
+}
+
+.subTitleHome{
+    color: white;
+}
+
+.texto1 {
+
+    display: flex;
+    width: 30%;
+    height: 900px;
+    text-align: center;
+    flex-flow: column;
+
+
+}

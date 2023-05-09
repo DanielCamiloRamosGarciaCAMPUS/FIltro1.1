@@ -1,0 +1,53 @@
+{
+    "user":[
+        {
+            "id":"",
+            "nombre":"",
+            "descripcion":""
+        }
+    ],
+    "categorias":[
+        {
+            "id":"",
+            "nombre":"",
+            "precio":"",
+            "stock":"",
+            "categoriald":""
+        }
+    ],
+    "clientes":[
+        {
+            "id":"",
+            "imagen":"",
+            "nombre":"",
+            "direccion":"",
+            "telefono":""
+        }
+    ],
+    "ventas":[
+        {
+            "id":"",
+            "clienteId":"",
+            "empleadoId":"",
+            "fecha":""
+        }
+    ],
+    "detalleFactura":[
+        {
+            "facturaId":"",
+            "productoId":"",
+            "cantidad":""
+        }
+    ],
+    "compras":[
+        {
+            "id":"",
+            "fecha":"",
+            "productoId":"",
+            "cantidad":"",
+            "proveedor":""
+
+        }
+    ]
+}
+
